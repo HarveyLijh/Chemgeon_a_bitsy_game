@@ -6,10 +6,10 @@
 
 <meta charset="UTF-8">
 
-<title>357_ver3</title>
+<title>357_ver4</title>
 
 <script type="text/bitsyGameData" id="exportedGameData">
-357_ver3
+357_ver4
 
 # BITSY VERSION 7.2
 
@@ -17,21 +17,25 @@
 
 PAL 0
 NAME blueprint
-211,182,130
+201,199,210
 80,82,88
 103,134,194
-183, 48, 3//fire
-74, 62, 46//sign
-63, 101, 59//grass
-255,248,211//shrine
+183,48,3
+74,62,46
+63,101,59
+255,248,211
+15,192,48
+192,15,15
+128,126,126
+125,155,95
 
 PAL 1
 NAME shrine
 255,248,211
 178,173,175
 0,38,92
-74, 62, 46//sign
-92, 163, 237//water
+74,62,46
+92,163,237
 
 PAL 2
 NAME maze
@@ -91,15 +95,15 @@ n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
 m,m,m,m,m,m,m,m,m,m,m,w,m,m,m,m
 p,o,o,o,o,o,o,o,o,o,o,15,o,o,o,s
 r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
+r,0,0,0,16,0,16,0,16,0,16,0,0,16,0,v
 r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
+r,0,16,0,16,0,16,0,16,0,16,0,0,16,0,v
 r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
+r,0,16,0,16,0,16,0,16,0,16,0,0,16,0,v
 r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
+r,0,16,0,16,0,16,0,16,0,16,0,0,16,0,v
 r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
-r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
-r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
-r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
-r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
-r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
+r,0,16,0,16,0,16,0,16,0,16,0,0,16,0,v
 r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
 r,0,0,0,0,0,0,0,0,0,0,0,0,0,0,v
 t,u,u,u,u,u,u,u,u,u,u,u,u,u,u,q
@@ -114,18 +118,39 @@ h,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
 h,0,g,g,g,g,0,0,0,0,g,g,g,g,0,i
 h,0,g,g,g,g,0,0,0,0,g,g,g,g,0,i
 h,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,i
+e,e,e,0,0,0,0,0,0,0,0,0,0,0,0,22
 h,0,e,e,0,0,0,0,0,0,0,0,0,0,0,i
 h,0,0,h,0,0,0,0,0,0,0,0,0,0,0,i
 h,0,0,h,0,0,0,0,0,0,0,0,0,0,0,i
-z,11,0,h,0,0,0,0,0,e,e,e,0,e,e,e
-h,0,0,h,0,0,0,0,0,h,0,0,0,0,0,i
-h,0,0,h,0,0,0,0,0,h,0,0,0,0,0,i
-h,0,0,0,0,0,0,0,0,h,0,0,0,0,0,i
-h,0,0,h,0,0,0,0,0,h,0,0,0,0,0,i
-e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e
+z,11,0,h,0,0,0,0,0,0,0,0,0,0,0,i
+h,0,0,h,0,0,0,0,0,0,0,0,0,0,0,i
+h,0,0,h,0,0,0,0,0,0,0,0,0,0,0,i
+h,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+h,0,0,h,0,0,0,0,0,0,0,0,0,0,0,i
+e,e,e,e,e,e,e,e,e,e,17,e,e,e,e,e
 NAME lobby_nofire
 ITM 3 2,8
+PAL 0
+
+ROOM 5
+19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19
+1b,0,0,0,1m,1m,0,0,0,1p,1m,0,0,0,0,1a
+1b,0,0,1k,1n,1o,0,0,1l,1o,1n,0,0,1k,0,1a
+1b,0,1e,1c,1q,1q,0,1e,1g,1i,1q,0,1e,1c,0,1a
+1b,0,1f,1d,1r,1v,1t,1f,1h,1j,1v,1t,1f,1d,0,1a
+1b,0,0,1x,0,1w,0,0,0,0,1w,0,0,20,0,1a
+1b,0,0,1k,0,1w,0,0,1k,0,1w,0,0,1k,0,1a
+1b,0,1e,1c,0,1w,0,1e,1c,0,1w,0,1e,1c,0,1a
+1b,0,1f,1d,1s,1v,1t,1f,1d,0,1v,1t,1f,1d,0,1a
+1b,0,0,21,1m,1p,0,0,20,0,1w,0,0,1x,0,1a
+1b,0,0,1k,1o,1n,0,0,1k,0,1w,0,0,1k,0,1a
+1b,0,1e,1c,1q,1q,0,1e,1c,0,1w,0,1e,1c,0,1a
+1b,0,1f,1d,1r,1v,1t,1f,1d,0,1v,1t,1f,1d,0,1a
+1b,0,0,1z,0,0,0,0,1x,13,0,0,0,21,0,1a
+1b,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1a
+19,19,19,19,19,19,19,19,18,19,19,19,19,19,19,19
+NAME birth place
+EXT 8,15 0 7,1 FX wave DLG f
 PAL 0
 
 TIL 11
@@ -193,13 +218,95 @@ NAME Staircase
 TIL 15
 10000001
 10000001
-111111110
+11111111
 01000010
 01111110
 00100100
 00111100
 00000000
 NAME Staircase2
+
+TIL 16
+10000001
+01111101
+01000101
+01011101
+00010001
+11000111
+11010111
+11000111
+NAME locked guide
+
+TIL 17
+00111100
+01000010
+10111001
+10000101
+10000011
+10000001
+11000011
+01111110
+NAME Large Stone
+WAL true
+
+TIL 18
+00111100
+01011010
+01111110
+01000010
+01111110
+01011010
+01011010
+01111110
+NAME Tech door
+
+TIL 19
+11111111
+11111111
+11100111
+11111111
+11111111
+11111111
+00000000
+11111111
+NAME wall4
+WAL true
+
+TIL 20
+01011110
+01111110
+11001111
+11011111
+00010010
+00010000
+00100000
+00000000
+NAME liquid4
+COL 10
+
+TIL 21
+01101110
+01101111
+11001100
+10011010
+00000001
+00000000
+00000000
+00000000
+NAME liquid1
+COL 10
+
+TIL 22
+00000000
+00001110
+00010001
+00011111
+00011011
+00011011
+00011111
+00000000
+NAME lock
+WAL true
 
 TIL a
 00000001
@@ -292,7 +399,6 @@ NAME grass
 WAL false
 COL 5
 
-
 TIL h
 11110000
 11110000
@@ -340,7 +446,6 @@ TIL l
 00111100
 NAME shrine
 COL 6
-
 
 TIL m
 11101110
@@ -423,6 +528,7 @@ TIL s
 00010101
 11010101
 01010101
+NAME mattress5
 WAL true
 
 TIL t
@@ -514,25 +620,324 @@ TIL z
 10010000
 NAME door left
 
-SPR A
-00001000
-01011100
-01010100
-01011100
+TIL 1a
+00001111
+00001001
+00001111
+00001111
+00001111
+00001111
+00000000
+00001111
+NAME wall5
+WAL true
+
+TIL 1b
+11110000
+10010000
+11110000
+11110000
+11110000
+11110000
+00000000
+11110000
+NAME wall6
+WAL true
+
+TIL 1c
+11111000
+11111100
+01000010
+10000101
+10001001
+10001001
+10010101
+10101011
+NAME container1_crack
+WAL true
+
+TIL 1d
+11001001
+10100111
+10011001
+01001010
 01111110
-11111101
+00111100
+11111111
+11111111
+NAME container2_crack
+WAL true
+
+TIL 1e
+00001111
+00001111
+00001010
+00011010
+01111010
+10011010
+10110010
+10100100
+NAME container wire
+WAL true
+
+TIL 1f
+10100100
+10100100
+11111110
+10110110
+11111110
+11111111
+11111111
+11111111
+NAME container box
+WAL true
+
+TIL 1g
+11111000
+11111100
+01000010
+10000001
+10000001
+10000001
+10000001
+10000001
+NAME cintainer1
+WAL true
+
+TIL 1h
+10000001
+10000001
+10000001
+01000010
+01111110
+00111100
+11111111
+11111111
+NAME container2
+WAL true
+
+TIL 1i
+00000000
+00011100
+00100110
+11001001
+01010011
+11100101
+01001001
+11010011
+NAME container_door1
+WAL false
+COL 9
+
+TIL 1j
+01100101
+11001001
+01010011
+00100110
+00011100
+00000000
+00000000
+00000000
+NAME container_door2
+COL 9
+
+TIL 1k
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
 01010100
+10101010
+>
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00101000
+NAME error light
+COL 8
+
+TIL 1l
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+00101000
+NAME correct light
+COL 7
+
+TIL 1m
+00110100
+01111110
+01000010
+01010010
+01000110
+01111110
+00011000
+01111110
+NAME computer1
+WAL true
+
+TIL 1n
+01111110
+01001111
+01001001
+01101111
+01001001
+01001001
+01001011
+01111111
+NAME computer2
+WAL true
+
+TIL 1o
+01111110
+11111111
+10100001
+10000001
+11111111
+10100001
+10000001
+11111111
+NAME computer3
+WAL true
+
+TIL 1p
+11111111
+10000001
+10101001
+10010101
+10000001
+11111111
+00101100
+01111110
+NAME computer4
+WAL true
+
+TIL 1q
+00101010
+00101010
+00011010
+00011110
+00011100
+00011100
+00001100
+00001100
+NAME wire1
+COL 9
+
+TIL 1r
+00001100
+00001100
+00001100
+00001100
+00001100
+00111100
+11111000
+11100000
+NAME wire2
+COL 9
+
+TIL 1s
+00000000
+00000000
+00000000
+00000000
+00000000
+01111000
+11111100
+11110100
+NAME wire3
+COL 9
+
+TIL 1t
+00000000
+00000000
+00001111
+00011000
+00111111
+11110000
+11111111
+00000000
+NAME wire4
+COL 9
+
+TIL 1v
+00001100
+00001100
+00001100
+00001100
+00001100
+00001111
+00000111
+00000000
+NAME wire5
+COL 9
+
+TIL 1w
+00001100
+00001100
+00001100
+00001100
+00001100
+00001100
+00001100
+00001100
+NAME wire6
+COL 9
+
+TIL 1x
+01111110
+11111100
+01111110
+10101011
+01000001
+00000000
+00000000
+00000000
+NAME liquid2
+COL 10
+
+TIL 1z
+01111111
+00111110
+01011100
+00111001
+01110110
+01100010
+11000000
+00000000
+NAME liquid3
+COL 10
+
+SPR A
+00011000
+00011100
+01010100
+00111110
+00111110
+01011101
+01010101
 00010100
 >
-01001000
-01011100
-01010100
+00011000
+00011100
+00010101
+00111110
+00111110
 01011101
-11111110
-01011100
+01010101
 00010100
-00010100
-POS 0 7,1
+POS 5 8,4
+ITM 1 1
 
 SPR a
 00011000
@@ -589,7 +994,6 @@ DLG 4
 POS 0 3,13
 COL 3
 
-
 SPR d
 00011000
 00100100
@@ -601,31 +1005,49 @@ SPR d
 00111100
 NAME water
 DLG 8
-POS 2 8,3
+POS 2 2,4
 COL 4
 
 SPR e
 00000000
 01111110
-01000010
-01000110
+01011010
+01111110
 01111110
 00011000
 00000000
 00011000
+>
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
 NAME L0_fire sign1
 DLG 9
-POS 0 6,2
+POS 0 7,2
 COL 4
 
 SPR g
 00000000
 01111110
-01000010
-01000110
+01011010
+01111110
 01111110
 00011000
 00000000
+00011000
+>
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
 00011000
 NAME L0_fire sign2
 DLG a
@@ -635,30 +1057,84 @@ COL 4
 SPR i
 00000000
 01111110
-01000010
-01000110
+01011010
+01111110
 01111110
 00011000
 00000000
 00011000
+>
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
 NAME L0_fire_shrine sign1
 DLG b
-POS 2 11,3
+POS 2 10,3
 COL 3
 
 SPR j
 00000000
 01111110
-01000010
-01000110
+01011010
+01111110
 01111110
 00011000
 00000000
+00011000
+>
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
 00011000
 NAME L0_fire sign3
 DLG d
 POS 0 9,14
 COL 4
+
+SPR k
+00000000
+00000000
+01111110
+01111110
+01111110
+01111110
+00011000
+00011000
+>
+00000000
+01111110
+01011010
+01111110
+01111110
+00011000
+00000000
+00011000
+NAME Birth_sign
+DLG e
+POS 5 9,14
+COL 4
+
+SPR l
+00000000
+01111100
+01000100
+01110100
+01000100
+01011100
+01100100
+01111100
+NAME Birth notes
+DLG g
+POS 5 8,5
 
 ITM 1
 10101010
@@ -749,7 +1225,7 @@ A guide to make water!
   - {item "O"} >= 1 ?
     {
       - {item "H"} >= 2 ?
-        Congrats, you get a bottle of water!
+        H+O+H... Congrats, you get a bottle of water!
         {item "water" {{item "water"} + 1}}
         {item "O" {{item "O"} - 1}}
         {item "H" {{item "H"} - 2}}
@@ -765,15 +1241,33 @@ A guide to make water!
 NAME water dialog
 
 DLG 9
-Welcome to Chemgeon! Use every chemistry knowledge you know to conquer this quest. Signs will tell you Chemgeon's secrets. Don't miss them!
+"""
+{sequence
+  - Glad you make it, Agent-9. 
+    This is a simulation of our world. 
+    At here, I'll teach you how to collect atoms and craft chemical compounds. 
+    Talk to any of my clone when you need help.{printSprite "e"}
+  - Talk to any of my clone when you need help.{printSprite "e"}
+}
+"""
 NAME L0_sign_fire1 dialog
 
 DLG a
-This is the {wvy}Compound Shrine{wvy}. It will appear on every floor. {wvy}Compound Shrine{wvy} lets you craft any compounds you like as long as you have the ingredents.
+"""
+This is the {wvy}Compound Shrine{wvy}. 
+It is a virtual space in your micro-processor. 
+You can access it wherever you want. 
+{wvy}Compound Shrine{wvy} records all the compound guides you collected. 
+You can craft compounds as long as you have the ingredents.
+"""
 NAME L0_sign_fire2 dialog
 
 DLG b
+"""
 As your quest goes on, new compound guide will be unlocked. Use them to craft compounds.
+The compounds are crucial to your survival. 
+Use them wisely.
+"""
 NAME L0_fire_shrine sign1 dialog
 
 DLG c
@@ -783,6 +1277,48 @@ NAME L0_fire sign3 dialog
 DLG d
 There are some elements ahead. Collect them and make some compounds in the {wvy}Compound Shrine{wvy}!
 NAME sprite j dialog
+
+DLG e
+"""
+{sequence
+  - Life Detected...
+    Examining Identity...
+    ...
+    ...
+    Oh, you wake up...
+    Hello Agent-9, welcome.
+    My name is Caliban, I'm your guide here on planet 473. 
+    You must be confused why you are here and who you are.
+    But don't worry. I'll explain them to you shortly.
+    Now, please ride the portal ahead.
+    There is a world waiting for you to save.
+  - Go ahead. I'll explain more when you arrive.
+}
+"""
+NAME Birth_sign dialog
+
+DLG f
+"""
+Equiping survival kit...
+...
+Water crafting guide accquired, H+O+H...
+Ready to transport.
+in 3..
+2..
+...
+1..
+...
+Transport initiate!
+"""
+NAME exit narration 1
+
+DLG g
+"""
+{clr3}A Note on the floor:{clr3}
+If you forgot how to walk, try w,a,s,d or the arrow keys.
+On planet 473, you don't need manner. Just walk into someone if you wanna talk ;-)
+"""
+NAME Birth notes dialog
 
 
 </script>
@@ -9711,6 +10247,7 @@ CHAR 255
 010010
 000000
 000000
+</script>
 </script>
 </script>
 
